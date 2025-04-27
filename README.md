@@ -1,5 +1,17 @@
 # JSBrain
-A JSFuck Decoder with no evaluating the code, with python. (still under development?)
+A JSFuck Decoder with no evaluating the code, with python. (still under development?)<br><br>
+I know that JSFuck isn`t for safe obfuscation, but i made this for fun.<br><br>
+If you have a bug, a request or more nice code than mine, you can write anything on Issues. I need your help!
+## Usage
+No modules are required.<br><br>
+You can use file path for input code:
+```
+python3 jsbrain.py -p input.js
+```
+or, you can enter code directly:
+```
+python3 jsbrain.py -c "(!![]+[][(![]+[])[+!+[]]+(!![]+[])[+[]]])[+!+[]+[+[]]]+((+[])[([]..."
+```
 ## Example
 Original Code:
 ```javascript
